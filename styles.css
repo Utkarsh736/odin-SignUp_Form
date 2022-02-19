@@ -63,12 +63,32 @@ html, body{
     /* text-align: center; */
 }
 
-form{
+.form-container{
     border: 2px solid black;
     height: 100%;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
     padding-left: 10vw;
     padding-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+}
+
+.name{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.password{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .bottom{
