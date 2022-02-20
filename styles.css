@@ -4,9 +4,9 @@
 }
 
 :root{
-    --divBgClr: #E8F0F2 ;
-    --formBgClr: white ;
-    --btnClr : #596D48;
+    --divBgClr: #c0c5ce ;
+    --formBgClr: 	#ffb3ba ;
+    --btnClr : #baffc9;
 }
 
 *{
@@ -102,7 +102,9 @@ form{
     row-gap: 2vh;
 }
 
-
+input:focus{
+    border: 3px solid blue;
+}
 
 .bottom{
     height: 40vh;
