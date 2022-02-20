@@ -11,8 +11,8 @@
     <div class="container">
         <div class="sidebar">
             <div class="picture">
-                <div class="logo">
-                    <img src="Images/odin-logo.png" alt="odin-logo">
+                <div class="logo-div">
+                    <img src="Images/odin-logo.png" alt="odin-logo" class="logo">
                     <p>Sign-Up Form</p>
                 </div>
             </div>
@@ -27,29 +27,44 @@
                 <h1>Lets Do This</h1>
 
                 <form action="#">
-                    <div class="name">
-                        <label for="firstName">First Name</label>
-                        <input type="text" id="firstName">
-    
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName">
-                    </div>
+                    <fieldset class="form-item name">
+                        <div class="form-cell">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        
+                        <div class="form-cell">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName">
+                        </div>
+                        
+                    </fieldset>
                     
-                    <div class="contact">
-                        <label for="user-email">Email id</label>
-                        <input type="email" id="user-email">
-    
-                        <label for="phone-number">Phone Number</label>
-                        <input type="tel" id="phone-number">
-                    </div>
+                    <fieldset class="form-item contact">
+                        <div class="form-cell">
+                            <label for="user-email">Email id</label>
+                            <input type="email" id="user-email">
+                        </div>
+                        
+                        <div class="form-cell">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" id="phone-number">
+                        </div>
+                        
+                    </fieldset>
                     
-                    <div class="password">
-                        <label for="password">Password</label>
-                        <input type="password" id="password">
-    
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password">
-                    </div>
+                    <fieldset class="form-item password">
+                        <div class="form-cell">
+                            <label for="password">Password</label>
+                            <input type="password" id="password">
+                        </div>
+                        
+                        <div class="form-cell">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password">
+                        </div>
+                        
+                    </fieldset>
                     
                 </form>
             </div>
