@@ -5,7 +5,7 @@
 
 :root{
     --divBgClr: #E8F0F2 ;
-    --formBgClr: #599BB0 ;
+    --formBgClr: white ;
     --btnClr : #596D48;
 }
 
@@ -74,6 +74,7 @@ html, body{
     height: 100%;
     padding-left: 5vw;
     padding-right: 10vw;
+    background-color: var(--formBgClr);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -89,8 +90,7 @@ form{
 
 .form-item{
     height: 5vh;
-    background-color: white;
-    border: 2px solid white;
+    border: 2px solid var(--formBgClr);
     display: flex;
     justify-content: flex-start;
     gap: 20vw;
