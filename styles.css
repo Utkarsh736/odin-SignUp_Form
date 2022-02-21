@@ -4,9 +4,12 @@
 }
 
 :root{
-    --divBgClr: #c0c5ce ;
-    --formBgClr: 	#ffb3ba ;
-    --btnClr : #baffc9;
+    /* #242582 */
+    /* #553D67 */
+    /* #99738D */
+    --divBgClr:  #2F2FA2;
+    --formBgClr: 	white;
+    --btnClr : #F64C72;
 }
 
 *{
@@ -49,7 +52,10 @@ html, body{
 
 .logo-div{
     margin-top: 30vh;
-    background-color: green;
+    background-color: black;
+    opacity: 0.75;
+    color: white;
+    font-weight: bold;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -59,7 +65,6 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .content{
