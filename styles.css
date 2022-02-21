@@ -4,9 +4,6 @@
 }
 
 :root{
-    /* #242582 */
-    /* #553D67 */
-    /* #99738D */
     --divBgClr:  #2F2FA2;
     --formBgClr: 	white;
     --btnClr : #F64C72;
@@ -65,6 +62,7 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
 }
 
 .content{
@@ -73,25 +71,30 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-top: 10vh;
     padding-left: 5vw;
 }
 
 .form-container{
     height: 100%;
+    margin-top: 5vh;
     padding-left: 5vw;
     padding-right: 10vw;
     background-color: var(--formBgClr);
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 form{
-    height: 40vh;
+    height: 30vh;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    row-gap: 10vh;
+    row-gap: 5vh;
+    font-weight: bold;
 }
 
 .form-item{
@@ -99,13 +102,19 @@ form{
     border: 2px solid var(--formBgClr);
     display: flex;
     justify-content: flex-start;
-    gap: 20vw;
+    gap: 10vw;
 }
 
 .form-cell{
     display: flex;
     flex-direction: column;
-    row-gap: 2vh;
+    row-gap: 1vh;
+}
+
+input{
+    height: 3vh;
+    border: 3px solid grey;
+    border-radius: 6px;
 }
 
 input:focus{
@@ -130,4 +139,8 @@ button{
     background-color: var(--btnClr);
     font-weight: bold;
     font-size: inherit;
+}
+
+a{
+    color: var(--btnClr);
 }
